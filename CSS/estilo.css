@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.espaco-topo {
+    margin-top: 450px; /* ajuste o valor conforme desejar */
+  }
+
+.img-retangular {
+    height: 100px;              /* define altura menor (retangular) */
+    object-fit: cover;          /* mantém proporção e corta o excesso */
+    object-position: center;    /* centraliza a imagem */
+  }
+
+  /* Altera a cor de fundo da navbar para marrom claro */
+  .navbar {
+    background-color: hsl(34, 39%, 64%) !important; /* tom marrom claro */
+  }
+
+  /* Opcional: se quiser mudar a cor dos links também para combinar */
+  .navbar .nav-link,
+  .navbar .navbar-brand {
+    color: #fff !important; /* links e logo em branco */
+  }
+
+  /* Opcional: cor do botão de pesquisa */
+  .navbar .btn-outline-primary {
+    border-color: #fff !important;
+    color: #fff !important;
+  }
+
+  .navbar .btn-outline-primary:hover {
+    background-color: #fff !important;
+    color: #D2B48C !important;
+  }
+
+
+/* Cor de fundo combinando com a navbar */
+  .footer-custom {
+    background-color: hsl(34, 39%, 64%);
+    color: #fff;
+  }
+
+  /* Links do footer */
+  .footer-custom a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+
+   /* Cor de fundo combinando com a navbar */
+  .footer-custom {
+    background-color: hsl(34, 39%, 64%);
+    color: #fff;
+  }
+
+  /* Títulos com linha fina abaixo */
+  .footer-title {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* Links do footer */
+  .footer-custom a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  /* Centraliza o texto de todas as seções com a classe espaco-topo */
+  .espaco-topo {
+    text-align: center;
+  }
+
+    .link-container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .link-container a {
+      display: block; /* Faz o link ficar um abaixo do outro */
+      color: #000000; /* Mantém preto */
+      text-decoration: none;
+      margin-bottom: 10px; /* Espaçamento entre os links */
+    }
+
+    .link-container a:hover {
+      text-decoration: underline; /* Apenas um efeito discreto no hover */
+    }
+
+    @media (max-width: 768px) {
+      .link-container {
+        margin-bottom: 20px;
+      }
+    }
